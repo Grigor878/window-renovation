@@ -1,0 +1,30 @@
+@import "../../variables";
+
+.not-found {
+  padding: 70px;
+
+  h1 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    @include flexCenter;
+    margin-bottom: 25px;
+  }
+
+  button {
+    background: $blue;
+    color: $white;
+    font-weight: 600;
+    padding: 11px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    @include flexCenter;
+    gap: 7px;
+    margin: 0 auto;
+
+    &:hover,
+    &:focus {
+      border: 1px solid $white;
+    }
+  }
+}

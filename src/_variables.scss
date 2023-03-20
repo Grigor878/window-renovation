@@ -1,0 +1,24 @@
+$bg: #f3f4f8;
+$white: #ffffff;
+$text: #323338;
+$blue: #4a46f1;
+$green: #2eaa50;
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin transition {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}

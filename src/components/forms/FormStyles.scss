@@ -1,0 +1,23 @@
+@import "../../variables";
+
+.form {
+  @include flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+
+  label {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: $text;
+  }
+
+  select {
+    width: 94px;
+    border: 1px solid $blue;
+    background: $white;
+    border-radius: 4px;
+    padding: 5px;
+    color: $text;
+  }
+}
